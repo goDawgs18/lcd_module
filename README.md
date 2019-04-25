@@ -21,11 +21,11 @@ D7  |  D2
 A  |  3.3V
 K  |  GND
 
-10 Kohm Resistor
+10 Kohm Resistor |  LCD1602
 ------------ | -------------
 Vin  |  3.3 V
 GND  |  Gnd
-Vout  |  V0 LCD1602
+Vout  |  V0 
 
 HC-SR04  |  Arduino
 ------------ | -------------
