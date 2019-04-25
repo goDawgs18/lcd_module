@@ -5,7 +5,8 @@ I decided to also incorporate using an Ultrasonic Sensor HC-SR04 so that I could
 
 ## Connections
 
-<u>LCD1602  |  Arduino</u>
+LCD1602  |  Arduino
+------------ | -------------
 VSS  |  5V
 VDD  |  Gnd
 V0  |  Vout Resistor
@@ -20,12 +21,14 @@ D7  |  D2
 A  |  3.3V
 K  |  GND
 
-<u>10 Kohm Resistor</u>
+10 Kohm Resistor
+------------ | -------------
 Vin  |  3.3 V
 GND  |  Gnd
 Vout  |  V0 LCD1602
 
-<u>HC-SR04  |  Arduino</u>
+HC-SR04  |  Arduino
+------------ | -------------
 GND  |  GND
 Vcc  |  5V
 Echo  |  D6
