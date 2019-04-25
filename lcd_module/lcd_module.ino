@@ -53,7 +53,7 @@ void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
   // Print a message to the LCD.
-  lcd.print("hello, world!");
+  lcd.print("Showing values:");
 }
 
 int sensorPin = 6;
@@ -64,10 +64,10 @@ void loop() {
   PORTD = PORTD & B01111111;
 
   pinMode(sensorPin, INPUT);
-  long duration = pulseIn(sensorPin, HIGH);
+  unsigned long duration = pulseIn(sensorPin, HIGH);
 
-  long cm = (duration/2) / 29.1;
-  long inches = (duration/2) / 74;
+  unsigned long cm = (duration/2) / 29.1;
+  unsigned long inches = (duration/2) / 74;
   
   lcd.setCursor(0, 1);
   // print the number of seconds since reset:
