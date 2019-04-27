@@ -7,8 +7,8 @@ I decided to also incorporate using an Ultrasonic Sensor HC-SR04 so that I could
 
 LCD1602  |  Arduino
 ------------ | -------------
-VSS  |  5V
-VDD  |  Gnd
+VSS  |  GND
+VDD  |  5V
 V0  |  Vout Resistor
 RS  |  D12
 RW  |  Gnd
